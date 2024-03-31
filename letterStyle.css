@@ -1,0 +1,45 @@
+html {
+    height: 100%; /* Assegura que a raiz do documento ocupe a altura total da tela */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e6e4df;
+    font-family: 'Times New Roman', serif;
+    min-height: 100%; /* Garante que o corpo do documento tenha pelo menos a altura da tela */
+    display: block; /* Usa o layout de bloco padrão */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.card {
+    background: #fdf8e1;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    margin: 20px auto; /* Centraliza horizontalmente o cartão */
+    max-width: 600px;
+    text-align: justify;
+    border: 1px solid #aaa;
+    background-image: url('img5.jpg');
+    background-size: cover;
+    position: relative;
+    color: #333;
+}
+
+.card-content {
+    position: relative;
+    z-index: 10;
+}
+
+.card-content h1,
+.card-content p,
+.card-content p.signature {
+    margin-bottom: 20px;
+}
